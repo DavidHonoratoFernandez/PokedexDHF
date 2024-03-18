@@ -132,7 +132,12 @@
     border-style: solid;
 }
 
-
+#nombre{
+    font-family: "Source Code Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
 
 #Texto{
     text-align: center;
@@ -347,4 +352,16 @@
     font-family: "Source Code Pro", monospace;
     font-weight: 400;
     font-style: normal;
+}
+
+@media screen and (max-width: 700px){
+    #Foto1 {   
+        width: 7%;
+    }
+    #Foto2 {   
+        width: 7%;
+    }
+    #Foto3 {   
+        width: 7%;
+    }
 }
